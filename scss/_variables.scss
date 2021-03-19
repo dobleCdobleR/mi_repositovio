@@ -1,0 +1,12 @@
+$text-claro: #f3f3f3;
+$footer-back-top: #6c757d;
+$footer-back-bottom:  #343a40;
+$main-back-top:#fafafa;
+$main-back-bottom:#cacaca;
+
+@mixin flex_center($direction) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-items: center;
+}

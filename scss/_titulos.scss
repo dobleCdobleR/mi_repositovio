@@ -1,0 +1,13 @@
+.intro{
+    @include flex_center(column);
+        h1{
+            padding: 0.5em;
+            font-size: 4em;
+            font-weight: 600;
+        }
+        p{
+            padding: 0.2em;
+            text-align: center;
+            width: 70%;
+        }
+}
