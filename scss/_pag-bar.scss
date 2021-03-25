@@ -1,0 +1,12 @@
+.main__bar{
+	background: url(../img/bar_fondo.jpg) fixed;
+    .intro{
+        background: url(../img/bar_fondo-titulos.jpg) repeat ;
+        border-radius: 10px;
+        color: $text-claro;
+        text-shadow: 2px 2px 4px black;
+    }
+    .container{
+        padding-top: 1.5em;
+    }
+}
