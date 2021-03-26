@@ -90,14 +90,37 @@ main {
     transform: scale(1.3); }
 
 .main__bar {
-  background: url(../img/bar_fondo.jpg) fixed; }
+  background: url(../img/bar_fondo.jpg) fixed repeat; }
   .main__bar .intro {
-    background: url(../img/bar_fondo-titulos.jpg) repeat;
+    justify-content: flex-start;
     border-radius: 10px;
     color: #f3f3f3;
     text-shadow: 2px 2px 4px black; }
   .main__bar .container {
     padding-top: 1.5em; }
+
+.main__contacto {
+  background: url(../img/contacto_fondo.jpg) fixed;
+  color: #f3f3f3; }
+  .main__contacto .intros {
+    text-shadow: 1px 1px 2px black;
+    text-align: justify; }
+  .main__contacto .form-control {
+    margin: .4em;
+    padding: .63em;
+    height: auto;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px; }
+  .main__contacto .form-control:focus {
+    border: 1px solid #1a1a1a;
+    outline: none;
+    box-shadow: none; }
+  .main__contacto .btn {
+    margin-top: .4em; }
+  .main__contacto textarea {
+    resize: none; }
+  .main__contacto h1 {
+    font-size: 4em; }
 
 footer {
   display: flex;
