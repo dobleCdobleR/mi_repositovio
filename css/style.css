@@ -154,8 +154,8 @@ footer {
     border-left: none; }
   footer img {
     padding: 0 0.5em;
-    font-size: 2em;
-    color: #f3f3f3; }
+    width: 2em;
+    filter: invert(100%); }
 
 @media only screen and (max-width: 1024px) {
   .main__index h1 {

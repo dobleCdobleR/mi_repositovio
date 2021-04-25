@@ -29,7 +29,7 @@ footer{
     }
     img{
         padding: 0 0.5em;
-        font-size: 2em;
-        color: $text-claro;
+        width: 2em;
+        filter: invert(100%);
     }
 }
