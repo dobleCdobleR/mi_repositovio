@@ -16,6 +16,9 @@ main {
 
 .navbar {
   box-shadow: 0px 5px 5px 0px #020202aa; }
+  .navbar img{
+		width: 100px;
+	}
 
 .intro {
   display: flex;
